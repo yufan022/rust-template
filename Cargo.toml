@@ -1,0 +1,9 @@
+[workspace.package]
+authors = ["wangyufan022@gmail.com"]
+version = "0.1.0"
+edition = "2021"
+publish = false
+license = ""
+
+[workspace]
+members = ["src/binaries", "src/application/service", "src/common/base"]

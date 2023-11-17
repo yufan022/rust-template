@@ -1,0 +1,20 @@
+[package]
+name = "template-binaries"
+description = "template-binaries"
+version = { workspace = true }
+authors = { workspace = true }
+license = { workspace = true }
+publish = { workspace = true }
+edition = { workspace = true }
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+application = { path =  "../application/service"}
+
+
+[[bin]]
+name = "application"
+path = "application/main.rs"
+doctest = false
+test = false

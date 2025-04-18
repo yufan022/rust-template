@@ -7,3 +7,7 @@ license = ""
 
 [workspace]
 members = ["src/binaries", "src/application/service", "src/common/base"]
+
+[workspace.dependencies]
+common-base = { path = "src/common/base" }
+application = { path = "src/application/service" }
